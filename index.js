@@ -7,6 +7,8 @@ const PORT=8080;
 // })
 app.get('/',(req,res)=>{
     fs.readdir('C:/Users/Ishwarya/Desktop',(error,folder)=>{
+        // we can give our own folders 
+        // fs.readdir('./myFolder',(error,folder)=>{
         if(error){
             console.error();
         }
