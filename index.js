@@ -69,7 +69,7 @@ app.get('/',(req,res)=>{
             }   
         })
         result = `<table ><tr>${result}<tr><table>`
-        res.send(result);
+        res.send(result,"Welcome to node app");
     })
 })
 
