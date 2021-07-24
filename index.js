@@ -6,9 +6,9 @@ const PORT=8080;
 //     response.send("Welcome to Node App!!!")
 // })
 app.get('/',(req,res)=>{
-    fs.readdir('C:/Users/Ishwarya/Desktop',(error,folder)=>{
+    // fs.readdir('C:/Users/Ishwarya/Desktop',(error,folder)=>{
         // we can give our own folders 
-        // fs.readdir('./myFolder',(error,folder)=>{
+        fs.readdir('./myFolder',(error,folder)=>{
         if(error){
             console.error();
         }
